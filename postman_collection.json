@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "b879406f-9a3b-4634-8559-c05cc9dcf27d",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EbebekTestGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://generator.swagger.io/api/gen/clients/java",
+					"protocol": "https",
+					"host": [
+						"generator",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"gen",
+						"clients",
+						"java"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EbebekTestPost",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"spec\": {},\r\n  \"options\": {\r\n    \"additionalProp1\": \"string\",\r\n    \"additionalProp2\": \"string\",\r\n    \"additionalProp3\": \"string\"\r\n  },\r\n  \"swaggerUrl\": \"http://petstore.swagger.io/v2/swagger.json\",\r\n  \"authorizationValue\": {\r\n    \"value\": \"string\",\r\n    \"type\": \"string\",\r\n    \"keyName\": \"string\",\r\n    \"urlMatcher\": {}\r\n  },\r\n  \"usingFlattenSpec\": true,\r\n  \"securityDefinition\": {\r\n    \"type\": \"string\",\r\n    \"description\": \"string\"\r\n  }\r\n}"
+				},
+				"url": {
+					"raw": "https://generator.swagger.io/api/gen/clients/ada",
+					"protocol": "https",
+					"host": [
+						"generator",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"gen",
+						"clients",
+						"ada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EbebekTestAllGet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://generator.swagger.io/api/gen/clients",
+					"protocol": "https",
+					"host": [
+						"generator",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"api",
+						"gen",
+						"clients"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
